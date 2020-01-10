@@ -2,10 +2,10 @@
 using namespace std;
 
 int fibonacci() {
-	long int evenSum = 0;
-	long int a = 0;
-	long int b = 1;
-	long int nextFib;
+	int evenSum = 0;
+	int a = 0;
+	int b = 1;
+	int nextFib;
 
 	cout << "Fibonacci Numbers: \n";
 
