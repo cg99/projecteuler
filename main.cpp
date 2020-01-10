@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int sumOf3and5();
+int fibonacci();
 int main() {
-  cout << "Project" << "Euler\n";
-  sumOf3and5();
+  cout << "Project Euler\n";
+  fibonacci();
   return 0;
 }
