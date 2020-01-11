@@ -9,9 +9,7 @@ int primeFactors() {
 	for (long int i = a; i < givenNum; i++) {
 		if (givenNum % i == 0) {
 
-			hpf = givenNum / i;
-
-			cout << "divided by " << hpf << endl;	
+			hpf = givenNum / i;	
 
 			givenNum = hpf;
 
@@ -20,6 +18,7 @@ int primeFactors() {
 		}
 	}
 
+	cout << "Highest Prime factor of the number is " << hpf << endl;
 
 	return 0;
 }
