@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int fibonacci();
+int primeFactors();
 int main() {
   cout << "Project Euler\n";
-  fibonacci();
+  primeFactors();
   return 0;
 }
