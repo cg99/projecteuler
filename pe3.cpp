@@ -3,16 +3,20 @@ using namespace std;
 
 int primeFactors() {
 	long int givenNum = 600851475143;
+	int a = 2;
+	long int hpf;
 
-	for (long int i = 2; i < givenNum; i++) {
+	for (long int i = a; i < givenNum; i++) {
 		if (givenNum % i == 0) {
-			long int hpf = givenNum / i;
-			cout << "low est prime factor is " << i << endl;
 
-			cout << "highest prime factor is " << hpf << endl;
-			return 0;
-		}else{
-			cout << "Not divisible by " << i << endl;
+			hpf = givenNum / i;
+
+			cout << "divided by " << hpf << endl;	
+
+			givenNum = hpf;
+
+			a = 2;
+
 		}
 	}
 
