@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int primeFactors();
+int palindrome();
 int main() {
   cout << "Project Euler\n";
-  primeFactors();
+  palindrome();
   return 0;
 }
