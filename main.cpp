@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int palindrome();
+int smallestDivisibleNum();
 int main() {
   cout << "Project Euler\n";
-  palindrome();
+  smallestDivisibleNum();
   return 0;
 }
