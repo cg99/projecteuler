@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int smallestDivisibleNum();
+int squareDiff();
 int main() {
   cout << "Project Euler\n";
-  smallestDivisibleNum();
+  squareDiff();
   return 0;
 }
