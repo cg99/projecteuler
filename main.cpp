@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int squareDiff();
+int prime10001();
 int main() {
   cout << "Project Euler\n";
-  squareDiff();
+  prime10001();
   return 0;
 }
