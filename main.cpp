@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int prime10001();
+int adjacentNum();
 int main() {
   cout << "Project Euler\n";
-  prime10001();
+  adjacentNum();
   return 0;
 }
