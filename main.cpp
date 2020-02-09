@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int pythagoreanTriplet();
+int millionPrime();
 int main() {
   cout << "Project Euler\n";
-  pythagoreanTriplet();
+  millionPrime();
   return 0;
 }
