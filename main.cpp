@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int millionPrime();
+int grid();
 int main() {
   cout << "Project Euler\n";
-  millionPrime();
+  grid();
   return 0;
 }
